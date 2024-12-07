@@ -1,12 +1,14 @@
 <section id="contact" class="h-screen">
-  <div class="h-full flex items-center justify-center gap-20">
+  <div class="h-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20">
     <!-- Left column -->
-    <div class="flex flex-col items-start gap-6 w-1/2">
-      <p class="text-4xl font-bold leading-snug">Feel free to reach out, I would love to connect!</p>
+    <div class="flex flex-col items-start gap-6 w-full lg:w-1/2">
+      <p class="text-2xl lg:text-4xl font-bold leading-snug text-center lg:text-left">
+        Feel free to reach out, I would love to connect!
+      </p>
 
       <!-- Contact info -->
       <div class="flex flex-col w-full items-center gap-6">
-        <div class="flex items-center gap-4 p-4 border shadow-md rounded w-auto bg-white">
+        <div class="flex flex-col sm:flex-row items-center gap-4 p-4 border shadow-md rounded w-auto bg-white">
           <!-- Icon -->
           <div class="bg-purple-100 p-3 rounded">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
@@ -15,7 +17,7 @@
           </div>
           
           <!-- Text -->
-          <div>
+          <div class="text-center sm:text-left">
             <p class="font-medium text-lg">Mail me at</p>
             <p class="font-semibold text-purple-600 text-xl">
               <a href="mailto:anmamebo2001@gmail.com">anmamebo2001@gmail.com</a>
@@ -25,7 +27,7 @@
 
         <!-- Social media -->
         <div class="flex flex-col items-center gap-2">
-          <p class="text-lg font-medium">Or find me on social media</p>
+          <p class="text-lg font-medium text-center">Or find me on social media</p>
 
           <div class="flex items-center gap-4">
             <a href="https://www.linkedin.com/in/antonio-manuel-merida-borrero/" target="_blank">
@@ -42,10 +44,10 @@
     </div>
 
     <!-- Right column -->
-    <div class="w-1/2">
+    <div class="w-full lg:w-1/2">
       <!-- Form -->
-      <div class="flex flex-col gap-4 p-8 border shadow-md rounded bg-white">
-        <p class="text-2xl font-bold text-gray-500">Send me a message</p>
+      <div class="flex flex-col gap-4 p-4 lg:p-8 border shadow-md rounded bg-white">
+        <p class="text-xl lg:text-2xl font-bold text-gray-500">Send me a message</p>
 
         <form action="https://formspree.io/f/xjkvdkbp" method="POST" class="flex flex-col gap-4">
 
@@ -62,7 +64,7 @@
           </div>
 
           <div class="">
-            <button type="submit" class="bg-purple-600 text-white px-9 py-3 rounded-lg shadow-lg">Send Message</button>
+            <button type="submit" class="bg-purple-600 text-white px-9 py-3 rounded-lg shadow-lg w-full lg:w-auto">Send Message</button>
           </div>
         </form>
       </div>
