@@ -9,6 +9,15 @@ html {
   scroll-behavior: smooth;
 }
 
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
 .wave {
   animation-name: wave-animation;
   animation-duration: 2.5s;
