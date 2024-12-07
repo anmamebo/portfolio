@@ -1,0 +1,26 @@
+---
+import background from '../assets/background.svg';
+---
+
+<section id="home" class="h-screen">
+  <!--  Background image -->
+	<img id="background" src={background.src} alt="Decorative background image" fetchpriority="high" class="absolute top-0 left-0 w-full h-full blur-[100px] -z-10" />
+  
+  <div class="h-full flex flex-col justify-center gap-12">
+    <div class="flex flex-col gap-2 text-3xl md:text-5xl font-medium">
+      <p>Hello there <span class="wave">👋</span>,</p>
+      <p>I'm <span class="font-bold text-purple-600">Antonio Manuel</span>, a Software Engineer based in Spain.</p>
+    </div>
+
+    <div class="text-md md:text-xl">
+      <p>Here you can find some of my projects and skills.</p>
+    </div>
+
+    <!-- Scroll down button -->
+    <a href="#about" class="absolute bottom-10 left-1/2" aria-label="See more"> 
+      <svg width="27" height="15" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25.86 1.14a.479.479 0 0 0-.679 0l-11.68 11.7L1.818 1.14a.479.479 0 1 0-.678.68l12.02 12.04a.479.479 0 0 0 .678 0L25.86 1.82a.48.48 0 0 0 0-.68z" fill="#FFF" fill-rule="nonzero" stroke="#000" stroke-width="2" opacity=".9"></path>
+      </svg> 
+    </a>
+  </div>
+</section>
