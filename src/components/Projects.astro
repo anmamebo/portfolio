@@ -4,11 +4,11 @@ import projects from '../data/projects.json'
 ---
 
 <section id="projects" class="min-h-screen relative">
-  <h2 class="absolute top-10 left-10 lg:top-24 lg:left-20 transform -translate-x-1/2 text-xl lg:text-4xl font-semibold">
+  <h2 class="pt-8 lg:pt-0 pb-2 lg:pb-0 lg:absolute lg:top-24 lg:left-20 lg:transform lg:-translate-x-1/2 text-2xl lg:text-4xl font-semibold">
     Projects
   </h2>
   {projects.map((project) => (
-    <div class="h-screen flex items-center">
+    <div class="pb-8 lg:pb-0 lg:h-screen flex items-center">
       <Project project={project} />
     </div>
   ))}
