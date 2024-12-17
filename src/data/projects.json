@@ -5,7 +5,7 @@
     "image": "/images/hospitalsys.png",
     "description": [
       "MILP algorithm optimizes appointment scheduling and reduces wait times.",
-      "Built with Angular for UI, Django REST for APIs, and MySQL for data storage.",
+      "Developed as a CRUD application, offering dynamic user interfaces and efficient API handling.",
       "Google Cloud Storage secures patient files for easy and safe access.",
       "Responsive design with Bootstrap for seamless access on all devices."
     ],
