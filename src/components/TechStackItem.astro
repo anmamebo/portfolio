@@ -6,8 +6,8 @@ const { tech } = Astro.props;
   href={tech.link} 
   target="_blank" 
   rel="noopener noreferrer" 
-  class="flex items-center gap-3 bg-gray-50 py-1 px-2 rounded-full border hover:bg-gray-100 transition"
+  class="flex items-center gap-3 bg-gray-50 px-1 py-1 lg:px-2 rounded-full border hover:bg-gray-100 transition"
 >
   <img src={`/icons/${tech.icon}`} alt={`${tech.name} icon`} class="w-5 h-5" />
-  <p class="text-xs font-medium">{tech.name}</p>
+  <p class="text-xs font-medium hidden lg:block">{tech.name}</p>
 </a>
