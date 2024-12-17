@@ -1,48 +1,61 @@
-# Astro Starter Kit: Basics
+# Personal Portfolio 🚀
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a software developer. It is designed to provide a dynamic and interactive user experience while highlighting my technical abilities and achievements.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Features 🌟
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
+- **Dynamic Projects Section**: Projects are dynamically rendered using JSON data for easy updates.
+- **Smooth Navigation**: A clean and intuitive navigation system with scroll-based animations.
+- **Performance Optimized**: Built with modern web development practices to ensure fast loading and smooth performance.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Tech Stack 🛠️
 
-## 🚀 Project Structure
+This portfolio is built using:
 
-Inside of your Astro project, you'll see the following folders and files:
+- **[Astro](https://astro.build/)**: A modern framework for static site generation.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for styling.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Installation 🖥️
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+To run this project locally, follow these steps:
 
-## 🧞 Commands
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/anmamebo/portfolio.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd portfolio
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+Your portfolio will be available at `http://localhost:4321`.
 
-All commands are run from the root of the project, from a terminal:
+## File Structure 📂
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- `src/`: Contains all the source files.
+    - `components/`: Reusable UI components such as `Project` and `Header`.
+    - `data/`: JSON files storing project and tech stack data.
+    - `styles/`: Global and component-specific styles.
+- `public/`: Static assets such as images and icons.
 
-## 👀 Want to learn more?
+## Live Demo 🌐
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+You can view the live version of the portfolio here: **[Portfolio Live Demo](https://anmamebo-portfolio.vercel.app/)** 
+
+## Licence 📜
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact 📬
+
+* Developer: Antonio Manuel
+* GitHub: @anmamebo
+* Email: anmamebo2001@gmail.com
