@@ -1,0 +1,15 @@
+---
+import Project from './Project.astro'
+import projects from '../data/projects.json'
+---
+
+<section id="projects" class="min-h-screen relative">
+  <h2 class="absolute top-24 left-20 transform -translate-x-1/2 text-4xl font-semibold">
+    Projects
+  </h2>
+  {projects.map((project) => (
+    <div class="h-screen flex items-center">
+      <Project project={project} />
+    </div>
+  ))}
+</section>

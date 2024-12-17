@@ -1,0 +1,66 @@
+---
+import TechStackItem from "./TechStackItem.astro";
+
+const { project } = Astro.props
+---
+
+<div class="flex gap-12">
+  <!-- Left Column: Image -->
+  <div class="w-full lg:w-3/5">
+      <img 
+        src={project.image} 
+        alt={`${project.title} Image`} 
+        class="object-cover w-full h-full rounded-lg"
+      />
+  </div>
+
+  <!-- Right Column: Details -->
+  <div class="w-full lg:w-2/5 flex flex-col justify-between px-6 py-12">
+    <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-4">
+        <!-- Title -->
+        <h2 class="text-xl lg:text-3xl font-semibold">{project.title}</h2>
+
+        <!-- TechStack -->
+        <div class="flex flex-wrap items-center gap-4">
+          {project.techStack.map((tech: any) => (
+            <TechStackItem tech={tech} />
+          ))}
+        </div>
+      </div>
+
+      <!-- Description -->
+      <div class="flex flex-col gap-4">
+        {project.description.map((line: any) => (
+          <p class="text-lg text-gray-600">
+            {line}
+          </p>
+        ))}
+      </div>
+    </div>
+
+    <!-- Links -->
+    <div class="flex items-center gap-4">
+      {project.links.code && (
+        <a 
+          href={project.links.code} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="text-xl font-medium hover:underline underline-offset-4 hover:text-purple-500 transition-all duration-300 ease-in-out transform hover:scale-105"
+        >
+          View code →
+        </a>
+      )}
+      {project.links.liveDemo && (
+        <a 
+          href={project.links.liveDemo} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="text-xl font-medium hover:underline underline-offset-4 hover:text-purple-500 transition-all duration-300 ease-in-out transform hover:scale-105"
+        >
+          Live demo →
+        </a>
+      )}
+    </div>
+  </div>
+</div>

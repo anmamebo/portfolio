@@ -1,0 +1,76 @@
+[
+  {
+    "id": "hospital-sys",
+    "title": "HospitalSys - Healthcare Management System",
+    "image": "/images/hospitalsys.png",
+    "description": [
+      "MILP algorithm optimizes appointment scheduling and reduces wait times.",
+      "Built with Angular for UI, Django REST for APIs, and MySQL for data storage.",
+      "Google Cloud Storage secures patient files for easy and safe access.",
+      "Responsive design with Bootstrap for seamless access on all devices."
+    ],
+    "techStack": [
+      {
+        "name": "Django",
+        "icon": "django.svg",
+        "link": "https://www.django-rest-framework.org/"
+      },
+      {
+        "name": "Angular",
+        "icon": "angular.svg",
+        "link": "https://angular.dev/"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg",
+        "link": "https://www.mysql.com/"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.svg",
+        "link": "https://getbootstrap.com/"
+      }
+    ],
+    "links": {
+      "code": "https://github.com/anmamebo/tfg-project",
+      "liveDemo": null
+    }
+  },
+  {
+    "id": "mr-penguin",
+    "title": "Mr. Penguin - E-commerce Website",
+    "image": "/images/mrpenguin.png",
+    "description": [
+      "Uses Laravel Fortify for secure authentication, protecting user data.",
+      "The cart system allows users to easily add, remove, and view items.",
+      "Includes an admin panel for managing products, orders, and users.",
+      "Docker is used for easy deployment and environment consistency."
+    ],
+    "techStack": [
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg",
+        "link": "https://laravel.com/"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg",
+        "link": "https://www.mysql.com/"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.svg",
+        "link": "https://getbootstrap.com/"
+      },
+      {
+        "name": "Docker",
+        "icon": "docker.svg",
+        "link": "https://www.docker.com/"
+      }
+    ],
+    "links": {
+      "code": "https://github.com/anmamebo/mrpenguin",
+      "liveDemo": null
+    }
+  }
+]
